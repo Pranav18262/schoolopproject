@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pole Star</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Andragogy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+
+<!-- //js -->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+<link href="//fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- owl.carousel css -->
+<link rel="icon" href="favicon.png">
+	
+	
+	
+	
+        <!-- animate css -->
+        <link rel="stylesheet" type="text/css" href="style/css/animate.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" type="text/css" href="style/css/owl.carousel.css">
+		<!-- slick css -->
+        <link rel="stylesheet" type="text/css" href="style/css/slick.css">
+        
+		
+        <!-- rsmenu CSS -->
+        <link rel="stylesheet" type="text/css" href="style/css/rsmenu-main.css">
+        <!-- rsmenu transitions CSS -->
+        <link rel="stylesheet" type="text/css" href="style/css/rsmenu-transitions.css">
+        
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="style/css/responsive.css">
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<style>
+.w3_agile_nav a{
+margin:0 0.5em!important;
+}
+/* Contact */
+
+.nb-form 
+{
+    position: fixed;
+    z-index: 9999;
+    width: 300px;
+    background: #FFF;
+    right: 20px;
+    bottom: -389px;
+    transition: all .8s cubic-bezier(.22, .67, .43, 1.22) .2s;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.nb-form:hover 
+{
+    bottom: 0px;
+}
+
+/*-- User Icon --*/
+
+.nb-form .user-icon {
+    position: absolute;
+    top: -49px;
+    right: 12px;
+    display: block;
+    width: 58px;
+    margin: 20px auto 15px;
+    border-radius: 100%;
+}
+
+/*-- Title --*/
+
+.nb-form .title 
+{
+background: #1b65b3;
+font-size: 16px !important;
+padding: 10px 15px !important;
+color: #fff !important;
+border-radius: 10px 10px 0 0;
+}
+
+/*-- Text --*/
+
+.nb-form p 
+{
+    font-size: 13px;
+    margin: 0;
+    padding: 15px;
+    color: #666;
+}
+
+.nb-form p.message 
+{
+margin-left: 7px;
+}
+
+/*-- Form Elements --*/
+
+.nb-form form {
+    padding: 0 15px 15px 15px;
+}
+
+.nb-form input,
+.nb-form textarea {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    width: 254px;
+    max-width: 254px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.nb-form input:focus,
+.nb-form textarea:focus 
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.nb-form input[type='submit'] 
+{
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .4s ease;
+    color: #fff !important;
+    border: none;
+}
+
+.nb-form input[type='submit']:hover 
+{
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.07),0 1px 7px 0 rgba(0,0,0,0.02),0 3px 1px -1px rgba(0,0,0,0.1);
+}
+
+.nb-form textarea 
+{
+	min-height: 110px;
+}
+
+
+.nb-form ::-webkit-input-placeholder {
+    color: #ccb0b0;
+}
+
+.nb-form ::-moz-placeholder{
+    color: #ccb0b0;
+}
+
+.nb-form :-ms-input-placeholder {
+    color: #ccb0b0;
+}
+
+.nb-form :-moz-placeholder {
+    color: #ccb0b0;
+}
+
+.nb-form input[type='submit'] {
+    background: #e04f3f;
+}
+@media screen and (min-width: 900px) {
+.navbar-nav > li > a{
+    padding: .5em 0.1em!important;
+}
+}
+@media screen and (max-width: 676px) {
+    .nb-form:hover .user-icon {
+        display: none;
+    }
+
+    .nb-form .message {
+        display: none;
+    }
+
+    .nb-form form {
+        padding-top: 15px;
+    }
+    .nb-form{
+        //right: 50%;
+       bottom: -355px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+}
+
+
+/*  Contact Form  */
+
+.nb{width:100%; float: left; border-bottom:2px solid #c6c4c4; padding:2%; }
+.nb-news{width:100%; float:left;}
+.nb-img{text-align: center;
+    border: 1px solid #0095da;
+    //margin: 2px;
+    height: 45px;
+    font-weight: bold;}
+.nb-caption{color:#272363; font-size:16px; font-weight:600;}
+.nb-caption a{color:#0095da;}
+.nb-sub-caption{color:#ff0000; font-size:14px; font-style: italic;}
+
+.nb p{font-size:16px; line-height:18px; margin-top: 5px; color:#454545;}
+</style>
+
+	<script>
+	
+var x = false;
+setInterval(function() {
+    $(".hl").css("color", x ? "#ffef38" : "#fff");
+    x = !x;
+}, 250);
+
+</script>
+
+</head>
+	
+<body>
+	
+<!-- header -->
+	<div class="header_address_mail">
+		<div class="container">
+			
+			<div class="agileits_w3layouts_header_address_grid" style="float:left;">
+			<ul>	
+			<li style="background: #e04f3f;"><i class="fa fa-send" aria-hidden="true"></i></li>
+			<li><a href="mailto:polestarschool@yahoo.co.in">polestarschool@yahoo.co.in</a></li>
+			<li style="background: #e04f3f;"><i class="fa fa-phone" aria-hidden="true"></i></li>
+			<li>7541810409</li>
+			</ul>			
+			</div>
+
+			<div class="agileits_w3layouts_header_address_grid"  style="float:right;">
+			<ul>
+			<li style="background: #e04f3f;"><i class="fa fa-file-text" aria-hidden="true"></i></li>
+			<li><a href="polestar-school-mandatory-public-disclosure.html" target="_blank" class="hl">Mandatory Public Disclosure</a></li>
+			<li style="background: #e04f3f;"><i class="fa fa-sticky-note custom" aria-hidden="true"></i></li>
+			<li><a href="tc.html">Transfer certificate</a></li>
+			<li style="background: #e04f3f;"><i class="fa fa-file-text" aria-hidden="true"></i></li>
+			<li><a href="New Addmission.pdf" target="_blank">Admission Form</a></li>
+			<li style="background: #e04f3f;"><i class="fa fa-user" aria-hidden="true"></i></li>
+			<li><a href="https://www.parentsalarm.com/" target="_blank">Login</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+
+	
+<div class="header">
+	<div class="container">
+			
+			<div class="w3_agile_logo">
+			<h1><a href="index.html"><img src="images/logo.png" class="img-responsive"></a></h1>
+			</div>
+			
+			<div class="header-nav">
+				
+			<nav class="navbar navbar-default">
+				
+			<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+					</div>
+				
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="link-effect-12">
+					<ul class="nav navbar-nav w3_agile_nav">
+						<li class="active"><a href="index.html"><span>Home</span></a></li>
+						
+						<li class="dropdown">
+					    <a href="school-fees.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+					    <ul class="dropdown-menu">
+					    <li><a href="about.html">Introduction</a></li><li><a href="children.html">General Guidelines <br>English</a></li><li><a href="rules-hindi.pdf" target="_blank">General Guidelines<br>Hindi</a></li><li><a href="important.html">Important Information</a></li>
+					    <li><a href="School-Affiliation.pdf" target="_blank">Affiliation Status</a></li>
+					    
+					    </ul>					  
+					 </li>
+						<li class="dropdown">
+					    <a href="school-fees.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic<span class="caret"></span></a>
+					    <ul class="dropdown-menu">
+					   <li><a href="Syllabus in a view and examination parameter.pdf" target="_blank">Syllabus in a view & <br> examination parameter</a></li>
+					    <li><a href="Book-List-2021-2022.pdf" target="_blank">Book List 2021-2022</a></li>
+					    <li><a href="List-of-holidays-2021-2022.pdf" target="_blank">Vacations 2021-2022</a></li>		
+						<li><a href="Grading system.pdf" target="_blank">Grading system</a></li>
+						<li><a href="Course of study.pdf" target="_blank">Course of study</a></li>
+						<li><a href="Co-scholastic.pdf" target="_blank">Co-scholastic activities</a></li>
+						<li><a href="alumni.pdf" target="_blank">Polestar, Alumni Result <br>class X and XII 2019-2020</a></li>					  
+					    
+					    </ul>					  
+					 </li>
+						<li class="dropdown">
+					    <a href="school-fees.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admission<span class="caret"></span></a>
+					    <ul class="dropdown-menu">
+						<li><a href="Fee-Structure-2021-2022.pdf" target="_blank">Fee Structure 2021-2022</a></li>
+					    <li><a href="admission-enquiry.html">Admission Enquiry</a></li><li><a href="alumni.html">Alumni Enquiry</a></li>		    
+					    			  
+					    
+					    </ul>					  
+					 </li>
+						
+						<!-- <li><a href="FACILITIES.pdf" target="_blank"><span>Facilities</span></a></li> -->
+						<li class="dropdown">
+					    <a href="school-fees.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Magazine<span class="caret"></span></a>
+					    <ul class="dropdown-menu">
+						<li><a href="Magazine1.pdf" target="_blank">Magazine 1</a></li>
+					    <li><a href="Magazine2.pdf" target="_blank">Magazine 2</a></li>		    
+					    			  
+					    
+					    </ul>					  
+					 </li>
+					 <li><a href="FACILITIES.pdf" target="_blank"><span>Facilities</span></a></li>
+					 <li><a href="Prospectus.pdf" target="_blank"><span>Prospectus</span></a></li>
+						<li><a href="downloads.html"><span>Downloads</span></a></li>
+						<li><a href="gallery.html"><span>Gallery</span></a></li>
+						<li><a href="contact-us.html"><span>Contact Us</span></a></li>
+						</ul>
+					</nav>
+					</div>				
+			        </nav>
+				
+			</div>
+
+		
+			<div class="clearfix"> </div>
+		
+		</div>
+	</div>
+<!-- header -->
+	
+<!-- banner -->
+	
+	<!-- banner-slider -->
+	<div class="banner-slider">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>
+									<div class="agileits-banner-info">
+<!--										<div class="container">
+											<div class="w3ls-banner-shadow">
+												<h3>M.S Memorial Public School</h3>
+											</div>
+										</div>
+-->									
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info agileits-banner-info1">
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info agileits-banner-info2">
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info agileits-banner-info3">
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info agileits-banner-info4">
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info agileits-banner-info5">
+									</div>
+								</li>
+								
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager:true,
+								nav:false,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						 </script>
+						<!--banner Slider starts Here-->
+					</div>
+			</div>
+	<!-- //banner-slider -->
+	
+	<div  style="padding-top:3px; font-weight:bold; clear:both; color:#c52d2f!important;" id="marqText">                
+	<!--<marquee></marquee>-->
+ 	</div>   
+<div class="container">
+	<div class="row">
+		<!-- Form -->
+    <div class="nb-form">
+    <p class="title">Online Enquiry</p>
+    <p class="message">Please fill the details given below</p>
+
+    <form>
+      <input type="text" placeholder="Full Name" id="tblContName">
+      <input type="tel"  placeholder="Mobile No" id="tblContMob">
+      <input type="email" placeholder="Email" id="tblEmailId">
+      <input type="add" placeholder="Address" id="tblCommAddr">
+      <textarea name="cpmessage" placeholder="Message" id="tblMsg"></textarea>
+      <input type="submit" value="Send message" class="send" onclick="SaveWebContacts()">
+    </form>
+  	</div>
+	</div>
+</div>	
+
+<!-- statistics -->
+	<div class="services">
+		<div class="container">
+			<div class="w3layouts_header" style="margin: 0 0 0.5em;">
+				<h2>About <span>Us </span></h2>
+				<p><span><i class="fa fa-book" aria-hidden="true"></i></span></p>
+			</div>
+			<div class="col-md-8 agileinfo_about_left">
+				 <h4 style="margin-bottom:10px;">About Us</h4> 
+				
+				<p style="margin-bottom:10px;">Welcome to Pole Star, Madhubani an English medium day/boarding co-ed CBSE 10+2 school established by a registered socio cultural organization Vikas Bandhu, giving the true meaning of its name has been shining in the heart of Mithilanchal since last 17th years.</p>
+				<p style="margin-bottom:10px;">It believes that learning is a joyful experience which should be based on moral, spiritual ethical and secular values derived from the glorious Indian culture and heritage. The ideals of the institution reflects harmonious blend of ancient and Modern Methodology and pedagogy.</p>
+				
+				<a href="about.html" class="rm-btn">Read More</a>
+				<div class="clearfix"> </div>
+				
+			</div>
+			<div class="col-md-4 w3layouts_statistics_grid_left" >
+				<div class="w3_statistics_grid_left_grid agileinfo_about_left">
+					<div><input type="hidden" value="1310" id="InstId"/></div>
+<h4 style="margin-bottom:10px;">Notice Board</h4>
+ <div id="noticelstid21"></div>
+ <!-- <div id="noticelstid" style="height: 208px;overflow-y: scroll;text-align: left!important; border: 1px solid rgb(161, 225, 249);"></div>
+					
+				</div> -->
+				<marquee class="noticelstid" id="noticelstid" direction='up' scrollamount='4' scrolldelay='2' onmouseover='this.stop();' onmouseout='this.start();'style="height:208px;overflow-y: scroll;text-align: left!important; border: 1px solid rgb(161, 225, 249);">
+</marquee>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	</div>
+ <!--//statistics -->
+	<!-- services -->
+	<div class="services">
+		<div class="container">
+			<div class="w3layouts_header">
+				<h2>OUR <span>SCHOOL </span></h2>
+				<p><span><i class="fa fa-book" aria-hidden="true"></i></span></p>
+			</div>
+			<div class="w3_services_grids">
+				<div class="col-md-4 w3l_services_grid">
+					<div class="w3ls_services_grid agileits_services_grid">
+						<div class="wthree_service_text">
+							<a href="about.html" style="text-decoration: none;">
+							<h3>About</h3>
+							<h4>Pole Star </h4>
+							</a>	
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-4 w3l_services_grid">
+					<div class="w3ls_services_grid agileits_services_grid2">
+						<div class="wthree_service_text">
+							<a href="#" style="text-decoration: none;">
+							<h3>Academics</h3>
+							<h4>Academic Year (2017-18)</h4>
+							</a>
+						</div>
+					</div>
+				
+				</div>
+				<div class="col-md-4 w3l_services_grid">
+					<div class="w3ls_services_grid agileits_services_grid1">
+						<div class="wthree_service_text">
+							<a href="#" style="text-decoration: none;">
+							<h3>Curriculum</h3>
+							<h4>Curriculum of the CBSE</h4>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	
+	
+
+	<!-- odometer-script -->
+	<script src="js/odometer.js"></script>
+	
+	<script>
+		window.odometerOptions = {
+		  format: '(ddd).dd'
+		};
+	</script>
+	
+	<script>
+		setTimeout(function(){
+			jQuery('#w3l_stats1').html(25);
+		}, 1500);
+	</script>
+	
+	<script>
+		setTimeout(function(){
+			jQuery('#w3l_stats2').html(330);
+		}, 1500);
+	</script>
+	
+	<script>
+		setTimeout(function(){
+			jQuery('#w3l_stats3').html(542);
+		}, 1500);
+	</script>
+	
+	<!-- //odometer-script -->
+	<!-- featured-services
+	<div class="services">
+		<div class="container">
+			<div class="w3layouts_header">				
+			<h5>OUR <span>FACILITIES</span></h5>
+			<p><span><i class="fa fa-book" aria-hidden="true"></i></span></p>
+			</div>
+			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
+				<div class="col-md-6 w3_featured_services_left">
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-heartbeat"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>Health Care</h4>
+							<p>One of the best Pediatricians of Motihari visits the school infirmary daily and one of the best<br>
+							<a href="health-care.html">Read More</a>
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-book"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>Library</h4>
+							<p>The library is extremely well resourced and is catalogued and managed by a trained<br>
+							<a href="library.html">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-cubes"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>Math Lab</h4>
+							<p>In the mathematics faculty. We help students to develop confidence in the use of mathematical concepts<br>
+							<a href="math-lab.html">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-6 w3_featured_services_left">
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-clipboard"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>Remedial Classes</h4>
+							<p>Remedial Classes are held after the school hours to Coach Week students...<br>
+							<a href="remedial-classes.html">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-hotel"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>Hostel/Boarding</h4>
+							<p>The school provides separate residential facilities for boys and girls on campus...<br>
+							<a href="hostel.html">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-bus"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>Transport Facility</h4>
+							<p>Student can avail of the School Transport Subjected to the availability of seats...<br>
+							<a href="transport.html">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+ 	//featured-services -->
+	
+	
+	<div class="services">
+		<div class="container">
+			<div class="w3layouts_header">				
+			<h5>OUR <span>MANAGEMENT</span></h5>
+			<p><span><i class="fa fa-book" aria-hidden="true"></i></span></p>
+			</div>
+			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
+				<div class="col-md-6 w3_featured_services_left">
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-user"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>From the Desk of Principal</h4>
+							<p>Pole Star, giving the true meaning of its name, has been shining in the heart of Mithlanchal from last eight years, to guide its children in their life journey...<br>
+							<strong>Dr. Bharti Jha</strong><br>
+							<a href="from-principal's-desk.html">Read More</a>
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-user"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>From the Desk of Secretary</h4>
+							<p>In my opinion, discipline plays an important role for an Institution, family and the country, Discipline means obedience to rules and laws...<br>
+								<strong> LATE S.N. Jha (Founder Secretary)</strong><br>
+							<a href="from-secretary-desk.html">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-6 w3_featured_services_left">
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-user"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>From the Desk of Chairman</h4>
+							<p>Here at POLE STAR we are trying our best to fulfil this thought with unrestrained love, affection, devotion and dedication to our mission...<br>
+							<strong>LATE Ramphal Yadav</strong><br>
+							<a href="from-chairman-desk.html">Read More</a>
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3_featured_services_left_grid">
+						<div class="col-xs-4 w3_featured_services_left_gridl">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<i class="hi-icon fa-user"> </i>
+							</div>
+						</div>
+						<div class="col-xs-8 w3_featured_services_left_gridr">
+							<h4>From the Desk of Director</h4>
+							<p>Pole Star has become centre of excellence in the field of education within a short span of its existence. Our school is an innovative leader...<br>
+								<strong> Mr. Kailash Bhardwaj</strong><br>
+							<a href="from-co-ordinators-desk.html">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	 <!-- Events Start -->
+        <div id="rs-events" class="rs-events sec-spacer">
+			<div class="container">
+				<div class="w3layouts_header">
+				<h2>SPECIAL <span>ACHIEVEMENTS</span></h2>
+				<p><span><i class="fa fa-book" aria-hidden="true"></i></span></p>
+			</div>
+			<div class="w3layouts_skills_grids w3layouts_featured_services_grids">
+				<div class="row">
+			        <div class="col-md-12">
+						<div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="true" data-nav="true" data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="3" data-md-device-nav="true" data-md-device-dots="true">
+						<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/11th.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Pole Star’s Yash Jha class 11th student,</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Pole Star’s Yash Jha class 11th student, representing India in group of 32 nations for positive media, formed by Prime Minister of New Zealand, Jacinda Ardern</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/nirala.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Nirala House Student</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Nirala House Student</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/premchand.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Premchand House Student</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Premchand House Student</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/raman.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1"> Raman house Student</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#"> Raman house Student</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/vivek.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1"> Vivekanand House Student</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#"> Vivekanand House Student</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+			                <div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image002.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Abhishek Kumar Jha( With Parents) <br>Class 12th Topper (2017-18)</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Abhishek Kumar Jha( With Parents) <br>Class 12th Topper (2017-18)</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+			                <div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image004.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Akansha( With Parents)<br>Class 10th Topper (2017-18)</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Akansha( With Parents)<br>Class 10th Topper (2017-18)</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+			                <div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image006.jpg" alt="" />
+                                    <a class="image-link" href="#" title="event">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Director Receiving Good Samaritan Awards</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Director Receiving Good Samaritan Awards</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image009.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Principal Meeting Inaugurated by RO(CBSE)</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Principal Meeting Inaugurated by RO(CBSE)</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0014.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Lighting The Lamp in Annual Function and honoring the guest by honorable Secretary Sir</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Lighting The Lamp in Annual Function and honoring the guest by honorable Secretary Sir</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0020.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Children Achieving the Prize from District Magistrate ( Madhubani)</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Children Achieving the Prize from District Magistrate ( Madhubani)</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0024.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Winner of Music Competition at district Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Winner of Music Competition at district Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0026.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Winner of Dance Competition at district Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Winner of Dance Competition at district Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0028.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Cherishing the winning prize at district Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Cherishing the winning prize at district Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0030.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Winner of Kabbadi (Boys) Competition at district Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Winner of Kabbadi (Boys) Competition at district Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0032.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Winner of Kabbadi (Girls) Competition at district Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Winner of Kabbadi (Girls) Competition at district Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0036.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Winner of Martial Arts (Girls) Competition at district Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Winner of Martial Arts (Girls) Competition at district Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image036.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Winner of Badminton Competition at district Level & selected for State Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Winner of Badminton Competition at district Level & selected for State Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							<div class="event-item">
+			                    <div class="event-img">
+			                        <img src="images/events/image0038.jpg" alt="" />
+                                    <a class="image-link" href="#" title="topper">
+                                        <!-- <i class="fa fa-link"></i> -->
+										<p style="text-align:center;" id="f1">Winner of Badminton Competition at district Level & selected for State Level</p>
+                                    </a>
+			                    </div>
+		                    	<div class="events-details sec-color">
+                                    <!-- <div class="event-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>28 June 2017</span>
+                                    </div> -->
+                                    <h4 class="event-title"><a href="#">Winner of Badminton Competition at district Level & selected for State Level</a></h4>
+                                    
+                                    <div class="event-btn">
+                                        <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+			                </div>
+							
+			            </div>
+			        </div>
+			    </div>
+			</div>
+        </div>
+		</div>
+        <!-- Events End -->
+	
+	<div class="map-grid">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.992431442625!2d86.0091233140971!3d26.359106790049882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edcb55eee3025b%3A0xdbbca52de24cd29!2sPole+Star!5e0!3m2!1sen!2sin!4v1539351293760" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<!-- subscribe -->
+	<div class="footer-top">
+		<div class="container">
+			<div class="col-md-5 welcome">
+				<h3>About us</h3>
+				<p>POLESTAR, is an English medium, day/boarding co-ed school established by a registered socio cultural organization. The mushroom growth of so called English medium schools belied the hope of the people of Mithilanchal in imparting quality education. <br><a href="about.html">Read More</a></p>
+			</div>
+			
+			<div class="col-md-3 address">
+				
+            	<h3>Quick Links</h3>
+				
+                <ul style="margin-left:20px;">
+				<li><a href="about.html" style="color:#c1c1c1!important;">About Us</a></li>
+				<li><a href="#" style="color:#c1c1c1!important;">Academic</a></li>
+				<li><a href="admission-enquiry.html" style="color:#c1c1c1!important;">Admission</a></li>
+				<li><a href="#" style="color:#c1c1c1!important;">Facilities</a></li>
+				<li><a href="gallery.html" style="color:#c1c1c1!important;">Gallery</a></li>
+				</ul>
+				
+<!--	   <div class="news" id="displayNewsDynamic"></div>-->
+			</div>
+			
+			<div class="col-md-4 wthree-subscribe">
+			<h3>Contact Us</h3>
+				
+			<div class="w3-agileits-subscribe-form">
+			<p>Pole Star <br>Jeewachh Chowk,Ram Nagar Rohika,<br>Madhubani, Bihar 847211						
+			</p>
+			<p class="phone">Phone : 7541810409<br>
+			<span>Email : <a href="mailto:polestarschool@yahoo.co.in">polestarschool@yahoo.co.in</a></span>
+			</p>
+			</div>
+				
+			<div class="agile_header_social">
+			<ul class="agileits_social_list">
+						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="w3_agile_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					</ul>
+			</div>
+				
+			</div>
+			
+			<div class="clearfix"></div>
+			
+		</div>
+	</div>
+<!-- //subscribe -->
+	
+<!-- copy-right -->
+	<div class="copy-right-grids">
+	<div class="container">
+	<div class="copy-left">
+	<p class="footer-gd">© <script>document.write(new Date().getFullYear());</script> Pole Star. All Rights Reserved | Design by 
+	<a href="https://www.parentsalarm.com/" target="_blank">Parentsalarm</a></p>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+	</div>
+<!-- //copy-right -->
+	
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+	
+<!-- start-smooth-scrolling -->
+	
+<script type="text/javascript">
+$(document).ready(function () {
+        jQuery.noConflict();
+        var url = 'https://parentsalarm.com/Service/WebMarqueejsonp';
+        var data = "1310";
+        $.ajax({
+            url: url,
+            data: { 'id': data },
+            type: "GET",
+            dataType: "jsonp",
+            jsonp: "callback",
+            success: function (data) {
+                var data = JSON.parse(data);
+                var a = "", b = "", c = "";
+                $.each(data, function (i) {
+                    // a += data[i].MarqTitle + ", ";
+                    // c += data[i].MarqLink
+                    a += '<a href="' + data[i].MarqLink + '" style="text-decoration:none; color:#017acf; font-weight:600; font-size:14px;   margin-left:10px; margin-right:10px;" target="_blank">' + data[i].MarqTitle + '</a>';
+                });
+//                alert(a);
+                b = a.slice(0, -2);
+//                alert(data[i].MarqLink);
+                //                $('#marqText').append('<marquee><a href="' + data[i].MarqLink + '" style="text-decoration:none;  color:#000;" target="_blank">' + b + '</a><marquee>');
+                $('#marqText').append('<marquee behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();" style="padding:10px 15px 10px 15px; line-height:24px; ">' + b + '<marquee>');
+            },
+            error: function () {
+                alert("failed");
+
+            }
+
+        });
+    });
+</script>
+	<script type="text/javascript">
+    //  $(document).ready(function () {
+    function SaveWebContacts() {
+        //jQuery.noConflict();
+        var url = 'http://parentsalarm.info/Service/SaveWebContacts';
+        var data = "1310"; ContName = jQuery('#tblContName').val(); ContMob = jQuery('#tblContMob').val(); EmailId = jQuery('#tblEmailId').val(); CommAddr = jQuery('#tblCommAddr').val(); Msg = jQuery('#tblMsg').val();
+        jQuery.ajax({
+            url: url,
+            data: { 'ContactName': ContName, 'ContactMobile': ContMob, 'EmailId': EmailId, 'CommAddress': CommAddr, 'Message': Msg, 'InstId': data },
+            cache: true,
+            type: "POST",
+            datatype: 'jsonp',
+            //type: "GET",
+            //dataType: "jsonp",
+            jsonp: "callback",
+            success: function (data) {
+                //alert("Success");
+                jQuery("input[type = 'text']").val('');
+                jQuery("textarea").val('');
+                jQuery("input[type = 'password']").val('');
+            },
+            error: function () {
+                //alert("Success");
+                          jQuery("input[type = 'text']").val('');
+                          jQuery("textarea").val('');
+                          jQuery("input[type = 'password']").val('');
+            }
+        });
+    }
+  //  });
+</script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        //23/7/2018
+        var url = 'https://www.parentsalarm.com/Service/NoticeBoardLst';
+        var instid = $("#InstId").val();
+
+        $.ajax({
+            url: url,
+            data: { 'instids': instid },
+            type: "GET",
+            dataType: "jsonp",
+            jsonp: "callback",
+            success: function (data) {
+                $("#noticelstid").empty();
+                var data = JSON.parse(data);
+                var a = "";
+                if (data != "") {
+
+                    $.each(data, function (i) {
+
+                        var html = "<div class='nb'>";
+						
+                        html += "<div class='nb-news' style='float:left;'>";
+						var isoDate = new Date( data[i].AddedTime ).toISOString();						
+						var months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ];
+						//var month = months[isoDate.getMonth()];
+						//console.log(isoDate);
+						html += "<div class='nb-img'  style='width:85px;float:left;margin-right:10px;'><span style='color:#0095da;'>"+isoDate.substr(8, 2)+"</span></br><article style='background-color:#0095da;color:#fff;'><span>"+months[parseInt(isoDate.substr(5,2))-1]+"</span><span> - "+isoDate.substr(2,2)+"</span></article></div>";
+                        html += "<div class='nb-caption' style='float:left;'><a  href='http://www.polestarschool.co.in/detail.html?instid=" + instid + "&NoticeId=" + data[i].NoticeId + "' target='_self'>" + data[i].NoticeTitle + "</a></div></br>";
+                        
+                     
+                        html += "<p style='text-align:left!important;'>" + data[i].InstName + "</p>";
+                        html += "</div>";
+
+                        html += "</div>";
+                        $("#noticelstid").append(html);
+
+                    });
+                }
+                else {
+
+                }
+            },
+            error: function () {
+                alert("failed");
+
+            }
+
+        });
+
+    });
+</script>
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	
+<!-- //for bootstrap working -->
+	
+
+	
+	
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+	
+	
+	<!-- News Script --> 
+
+	
+	
+	<!-- modernizr js -->
+        <script src="style/js/modernizr-2.8.3.min.js"></script>
+        <!-- jquery latest version ->
+        <script src="style/js/jquery.min.js"></script>-->
+        <!-- bootstrap js -->
+        <script src="style/js/bootstrap.min.js"></script>
+        <!-- owl.carousel js -->
+        <script src="style/js/owl.carousel.min.js"></script>
+		<!-- slick.min js -->
+        <script src="style/js/slick.min.js"></script>
+        <!-- isotope.pkgd.min js -->
+        <script src="style/js/isotope.pkgd.min.js"></script>
+        <!-- imagesloaded.pkgd.min js -->
+        <script src="style/js/imagesloaded.pkgd.min.js"></script>
+        <!-- wow js -->
+        <script src="style/js/wow.min.js"></script>
+        <!-- counter top js -->
+        <script src="style/js/waypoints.min.js"></script>
+        <script src="style/js/jquery.counterup.min.js"></script>
+        <!-- magnific popup -->
+        <script src="style/js/jquery.magnific-popup.min.js"></script>
+        <!-- rsmenu js -->
+        <script src="js/rsmenu-main.js"></script>
+        <!-- plugins js -->
+        <script src="style/js/plugins.js"></script>
+		 <!-- main js -->
+        <script src="style/js/main.js"></script>
+	
+	
+</body>
+</html>
